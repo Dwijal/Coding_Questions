@@ -24,7 +24,7 @@ const medianMode=(arr)=>{
         else{
             acc[curr]=1
         }
-
+        // console.log(acc)
         return acc
     },{})
 
@@ -50,5 +50,5 @@ const medianMode=(arr)=>{
 
 console.log(medianMode([1,2,3,4,5,6,4,7,4,7]))
 
-// 1 2 3 4 4 4 5 6 7 7
+
 
